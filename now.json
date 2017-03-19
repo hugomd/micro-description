@@ -1,5 +1,9 @@
 {
-  "aliases": ["d.now.sh", "d.ii.md"],
+  "alias": [
+    "d.now.sh", 
+    "description.now.sh", 
+    "d.ii.md"
+  ],
   "env": {
     "NODE_ENV": "production"
   }
