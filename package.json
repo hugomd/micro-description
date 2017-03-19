@@ -35,5 +35,11 @@
     "nock": "^9.0.9",
     "test-listen": "^1.0.1",
     "xo": "^0.18.0"
-  }
+  },
+  "keywords": [
+    "micro",
+    "microservice",
+    "github",
+    "api"
+  ]
 }
