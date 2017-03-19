@@ -1,0 +1,39 @@
+{
+  "name": "description",
+  "version": "1.0.0",
+  "description": "A microservice to get the description of a GitHub repository.",
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "scripts": {
+    "start": "micro index.js",
+    "predev": "xo && ava",
+    "dev": "nodemon --exec 'micro index.js'",
+    "test": "ava --verbose",
+    "posttest": "xo"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/micro-description.git"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "curly": 0,
+      "no-negated-condition": 0
+    }
+  },
+  "dependencies": {
+    "micro": "^7.1.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "nock": "^9.0.9",
+    "test-listen": "^1.0.1",
+    "xo": "^0.18.0"
+  }
+}
