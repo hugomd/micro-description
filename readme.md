@@ -1,4 +1,4 @@
-# Micro Description
+# Micro Description [![Build Status](https://drone.ii.md/api/badges/hugomd/micro-description/status.svg)](https://drone.ii.md/hugomd/micro-description)
 A microservice to get the description of a GitHub repository ✍️
 
 # Usage
