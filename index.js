@@ -8,7 +8,7 @@ module.exports = async (req, res) => {
   const url = parse(req.url);
   const repo = url.pathname;
 
-  if (repo === '/') return send(res, 400, 'You must specify a repo: https://d.now.sh/hugomd/description');
+  if (repo === '/') return send(res, 400, 'You must specify a repo: https://d.now.sh/hugomd/micro-description');
 
   let statusCode;
   let message;
