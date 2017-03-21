@@ -26,6 +26,16 @@
       "no-negated-condition": 0
     }
   },
+  "now": {
+    "alias": [
+      "d.now.sh",
+      "description.now.sh",
+      "d.ii.md"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
   "dependencies": {
     "micro": "^7.1.0",
     "node-fetch": "^1.6.3"
